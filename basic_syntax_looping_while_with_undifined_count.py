@@ -2,24 +2,24 @@
 Program Perulangan  membaca buku dengan while
 """
 
-buku = 10
+book_count = 10
 print(f'ibu berkata, "Baca semua buku"')
 
-jumlah_paham = 0
-jumlah_baca = 0
+understood_count = 0
+read_count = 0
 
 #use while to repeate the statemen
-while jumlah_baca < buku * 2  :
-    jumlah_baca = jumlah_baca + 1
-    if jumlah_paham == 9 :
-        print(f'buku ke {jumlah_paham + 1 } belum paham')
+while read_count < book_count * 2  :
+    read_count = read_count + 1
+    if understood_count == 9 :
+        print(f'buku ke {understood_count + 1 } belum paham')
     else :
-        jumlah_paham = jumlah_paham + 1
-        print(f'buku ke {jumlah_paham} sudah dibaca dan dipahami')
+        understood_count = understood_count + 1
+        print(f'buku ke {understood_count} sudah dibaca dan dipahami')
 
-print(f'jumlah_buku_yang_sudah_dibaca_dan_dipahami adalah {jumlah_paham}')
-if jumlah_paham == buku:
+print(f'jumlah_buku_yang_sudah_dibaca_dan_dipahami adalah {understood_count}')
+if understood_count == book_count:
     print('Bu, semua buku bisa dipahami')
 else :
-    print(f'Bu, tidak semua buku dipahami, budi hanya bisa memahami {jumlah_paham} buku')
+    print(f'Bu, tidak semua buku dipahami, budi hanya bisa memahami {understood_count} buku')
 
