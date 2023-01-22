@@ -14,18 +14,18 @@ print(f'So Budi goes to the store')
 print(f'and goes shopping')
 
 # branching
-jumlah_botol_susu = 173
-jumlah_telur = 1587
+total_milk_bottles = 173
+total_eggs = 1587
 
-print(f"Jumlah botol susu adalah  {jumlah_botol_susu} botol")
-print(f"jumlah telur adalah {jumlah_telur} butir")
-if jumlah_botol_susu > 0 :
-    print(f'Budi mengecek harganya dan ternyata uangnya cukup')
-    if jumlah_telur == 0 :
-        print(f'Budi membeli 1 botol susu')
+print(f"The number of milk bottles is  {total_milk_bottles} bottle")
+print(f"The number of eggs is {total_eggs} pieces")
+if total_milk_bottles > 0 :
+    print(f'Budi checks the prices and it turns out his money is enough.')
+    if total_eggs == 0 :
+        print(f'Budi buys 1 bottle of milk')
     else:
-        print(f'Budi membli  1 botol susu dan 6 butir telur')
+        print(f'Budi buys 1 bottle of milk and 6 eggs')
 else:
-    print(f'budi tidak jadi membeli 1 botol susu')
+    print(f'Budi decides not to buy 1 bottle of milk.')
 
-print(f'budi pulang')
+print(f'Budi goes home')
