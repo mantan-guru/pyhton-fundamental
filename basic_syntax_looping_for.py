@@ -2,13 +2,13 @@
 Program Perulangan  membaca buku dengan for
 """
 
-jumlah_buku = 10
-print(f'ibu berkata, "Baca semua buku"')
+book_total = 10
+print(f'Mother says, "Read all the books"')
 
-jumlah_buku_yang_sudah_dibaca = 0
+books_read_count = 0
 
 #use for to repeate the statemen
-for jumlah_buku_yang_sudah_dibaca in range(1,jumlah_buku + 1):
-    print(f'buku ke {jumlah_buku_yang_sudah_dibaca} sudah dibaca')
+for books_read_count in range(1, book_total + 1):
+    print(f'Book {books_read_count} has been read')
 
-print(jumlah_buku_yang_sudah_dibaca)
+print(books_read_count)

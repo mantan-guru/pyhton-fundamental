@@ -2,14 +2,14 @@
 Program Perulangan  membaca buku dengan while
 """
 
-jumlah_buku = 10
+book_total = 10
 print(f'ibu berkata, "Baca semua buku"')
 
-jumlah_buku_yang_sudah_dibaca = 0
+books_read_count = 0
 
 #use while to repeate the statemen
-while jumlah_buku_yang_sudah_dibaca < jumlah_buku  :
-    jumlah_buku_yang_sudah_dibaca = jumlah_buku_yang_sudah_dibaca + 1
-    print(f'buku ke {jumlah_buku_yang_sudah_dibaca} sudah dibaca')
+while books_read_count < book_total  :
+    books_read_count = books_read_count + 1
+    print(f'Book {books_read_count} has been read')
 
-print(jumlah_buku_yang_sudah_dibaca)
+print(books_read_count)
