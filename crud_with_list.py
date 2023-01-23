@@ -36,7 +36,9 @@ def update_student():
     for i in range(0, len(student)) :
         print(f'{i + 1}. {student[i]}')
     select_student = int(input('Chose Number Student You want to  Delete :'))
-
+    student_name = input('Type new Student Name :')
+    student[select_student - 1] = student_name
+    operation_student()
 
 def delete_student():
     print('DELETE STUDENT')
