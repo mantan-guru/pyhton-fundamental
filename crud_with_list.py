@@ -52,13 +52,15 @@ def exit_program():
     exit()
 
 
-operation = 0
-print("\n OPERATION")
-operation_student()
+def main():
+    operation = 0
+    print("\n OPERATION")
+    operation_student()
 
-while operation < 3 :
-    select_operation = int(input("\nSelect Operation :  "))
-    operation_execute(select_operation)
-    # print(student)
+    while operation < 3 :
+        select_operation = int(input("\nSelect Operation :  "))
+        operation_execute(select_operation)
+        # print(student)
 
 
+main()
