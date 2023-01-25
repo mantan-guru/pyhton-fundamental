@@ -63,3 +63,19 @@ print(list_book)
 #using insert to add element in specify index
 list_book.insert(1, 'Data Minning')
 print(list_book)
+
+#using pop
+print('\n POP -4')
+list_book = ['Seven Habit', 'How to Influence People', 'First Things First', '40DX']
+list_book.pop(-4)
+for i in list_book:
+    print(i)
+
+#using del
+print('\n Command Del')
+list_book = ['Seven Habit', 'How to Influence People', 'First Things First', '40DX']
+del list_book[1]
+
+for i in range(0, len(list_book)):
+    print(list_book[i])
+
